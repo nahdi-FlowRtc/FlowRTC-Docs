@@ -7,7 +7,7 @@
 ## 📸 Overview
 
 <img src="./public/GitImages/overview.png" alt="Overview" width="800"/>
-<img src="./public/GitImages/next.png" alt="next" width="800"/>
+<img src="./public/GitImages/next.png" alt="next" width="400"/>
 
 ---
 
@@ -26,7 +26,7 @@
 Follow these simple steps to integrate **FlowRTC** into your project:
 
 <img src="./public/GitImages/gettingStarted.png" alt="Getting Started" width="800"/>
-<img src="./public/GitImages/mobile.png" alt="mobile" width="800"/>
+<img src="./public/GitImages/mobile.png" alt="mobile" width="400"/>
 ### Installation
 
 ```bash
