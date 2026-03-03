@@ -1,0 +1,264 @@
+.container{ 
+    height:100vh;
+    display: flex;
+    justify-content: center;
+  
+    background-color: #0a0a0a;
+    
+}
+.overview-data{
+    width:46.6%;
+    
+    height: 100%;
+  
+   .global-navigation{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 15%;
+   img{
+    width: 160px;
+   }a{
+     color: rgb(255 250 246);
+      opacity: 1;
+   }
+}
+}
+
+.containerOverview{
+   display: flex;
+   height: 85%;
+   
+}
+
+.containerOverview .information{
+    width: 30%; 
+    font-family: 'Inter', sans-serif;
+    overflow-wrap: break-word; /* Standard property */
+    word-wrap: break-word; /* Legacy support for older browsers */
+     
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        margin-left: 5px;
+        /* color: rgb(140,80,28); */
+        color: rgb(187 187 187);
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: ui-sans-serif, system-ui,
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif;
+    }
+    a:hover{
+        color: rgb(224 223 223);
+    }
+   
+}
+.containerOverview .rightinforamtion{
+    width: 70%;
+ 
+     
+ 
+}
+.info-color{
+    /* color:  rgb(72,35,7); */
+    color: #f8f8f8;
+    font-weight: 600;
+    font-size: 16px;
+      
+}
+
+
+::-webkit-scrollbar {
+  width:4px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(213, 207, 207);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e2e1e1;
+  border-radius: 7px;
+}
+.normal-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.active-link {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (min-width: 1137px) and (max-width: 1657px) {
+.container{ 
+    height:100vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.overview-data{
+    width:70%;
+    
+    height: 100%;
+  
+   .global-navigation{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 15%;
+   img{
+    width: 160px;
+   }a{
+    
+      opacity: 1;
+   }
+}
+}
+
+.containerOverview{
+   display: flex;
+   height: 85%;
+}
+
+.containerOverview .information{
+    width: 30%; 
+    font-family: 'Inter', sans-serif;
+    overflow-wrap: break-word; /* Standard property */
+    word-wrap: break-word; /* Legacy support for older browsers */
+     
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        margin-left: 5px;
+         
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: ui-sans-serif, system-ui,
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif;
+    }
+   
+}
+.containerOverview .rightinforamtion{
+    width: 70%;
+ 
+    
+     
+ 
+}
+.info-color{
+    
+    font-weight: 600;
+    font-size: 16px;
+      
+}
+
+
+}
+@media (min-width: 700px) and (max-width: 1129px){
+   .overview-data{
+    width:90%;
+    
+    height: 100%;
+  
+   .global-navigation{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 15%;
+   img{
+    width: 160px;
+   }a{
+      color: rgb(161,114,78);
+      opacity: 1;
+   }
+}
+} 
+} 
+@media (max-width: 699px) {
+.container{ 
+    height:auto;
+    display: flex;
+    justify-content: center;
+  
+     
+    
+}
+.containerOverview .rightinforamtion{
+    width: 100%;
+ 
+    
+     text-align: center;
+ 
+}
+.containerOverview .information{
+    width: 100%;
+     
+    font-family: 'Inter', sans-serif;
+    overflow-wrap: break-word; /* Standard property */
+    word-wrap: break-word; /* Legacy support for older browsers */
+     
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        margin-left: 5px;
+        
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: ui-sans-serif, system-ui,
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif;
+    }
+   text-align: center;
+}
+
+.containerOverview{
+   display: flex;
+   height: 85%;
+   flex-direction: column;
+   
+}
+
+
+
+
+
+ .overview-data{
+    width:100%;
+    
+    height: 100%;
+  
+   .global-navigation{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 15%;
+   img{
+    width: 160px;
+   }a{
+      color: rgb(161,114,78);
+      opacity: 1;
+   }
+}
+} 
+}

@@ -1,0 +1,45 @@
+.Camera_not_initialized{
+    
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.blockcode{
+    width: 100%;
+   
+    border-radius: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    span{
+    font-family: ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+    margin-left: 3px;
+        
+        
+    font-weight: bold;
+  
+        
+    } 
+}
+
+
+.inforamtion111{
+    font-family: ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+    font-weight: bold;
+    color: rgb(179, 177, 177);
+    margin-bottom: 10px;
+    font-size: large;
+}
+.blockImages img{
+    border-radius: 10px;
+    width: 100%;
+}

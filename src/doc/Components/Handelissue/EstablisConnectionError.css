@@ -1,0 +1,34 @@
+.info-connection-error{
+    font-family: ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+    font-weight: bold;
+    color: rgb(179, 177, 177);
+    margin-bottom: 10px;
+    font-size: normal;
+    letter-spacing: 0.5px;
+}
+
+.blockImages img{
+    border-radius: 10px;
+    width: 100%;
+  
+}
+ .EstablisConnectionError{
+    height: 100%;
+    overflow-y: auto;
+ }
+
+ .info-connection-error-yellow{
+     font-family: ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+    font-weight: bold;
+    color: #888f9b;
+    margin-bottom: 10px;
+    font-size: normal;
+    letter-spacing: 1px;
+ 
+ }

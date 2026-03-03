@@ -1,0 +1,103 @@
+.header{
+    width: 100%;
+ 
+   h2{
+    
+     font-family: ui-sans-serif, system-ui,
+  -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, "Noto Sans", sans-serif;
+  margin-bottom: 1rem;
+   }
+   p{
+     font-family: ui-sans-serif, system-ui,
+  -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, "Noto Sans", sans-serif;
+     
+    font-weight: 600;
+    font-size: 18px;
+   }
+    
+}
+.block3 img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.code-block img{
+    width: 100%;
+}
+
+.doc-container{
+    width: 100%;
+    height: 100%;
+  
+    overflow-y: auto;
+}
+
+.blockcode{
+    width: 100%;
+     
+    border-radius: 5px;
+    
+  
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    span{
+    font-family: ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+    margin-left: 3px;
+    font-weight: bold;
+ 
+      
+    }
+    /* pre{
+        color: #D6CEFF; 
+        font-weight: bold;
+        font-size: large;
+    } */
+}
+
+
+/* .blockcodeSpecial{
+    width: 100%;
+    background-color: #2b1b12;;
+    border-radius: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    span{
+    font-family: ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+    margin-left: 3px;
+        
+      
+   font-weight: bold;
+    color: #D6CEFF;
+      
+    }
+    pre{
+        color: #D6CEFF; 
+        font-weight: bold;
+        font-size: large;
+        
+    }
+ 
+     span{
+        position: absolute;
+        top: 0;
+        right:   0;
+        cursor: pointer;
+    }
+      
+} */

@@ -1,0 +1,111 @@
+.GetStarted{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+ 
+.title-start{
+   /* color: #482307; */
+   color: #f8f8f8;
+   font-family: ui-sans-serif, system-ui,
+   -apple-system, BlinkMacSystemFont,
+   "Segoe UI", Roboto, "Helvetica Neue",
+   Arial, "Noto Sans", sans-serif;
+   font-weight: 800;  
+   font-size: 35px;
+}
+ 
+
+
+.installwithnpm ,.basicausage  pre {
+  background-color:  rgb(53, 30, 17);
+ 
+  
+  border-radius: 10px;
+ 
+}
+
+  .installwithnpm  code {
+  font-family: monospace;
+  font-weight: bold;
+  color: #D6CEFF;
+}
+
+ 
+ .insalltion{
+ font-family: ui-sans-serif, system-ui,
+  -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, "Noto Sans", sans-serif;
+  color: #5C340F;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ }
+ 
+ .installwithnpm pre{
+    padding: 15px;
+ }
+
+
+ 
+
+ .data{
+    h3{
+   font-family: ui-sans-serif, system-ui,
+  -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, "Noto Sans", sans-serif;
+  /* color: #5C340F; */
+  color:#bbbbbb;
+    }
+ 
+ }
+ /* .block{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   background-color:  rgb(53, 30, 17);
+  border-radius: 10px;
+padding: 15px;
+  pre{
+  font-family: monospace;
+  font-weight: bold;
+  color: #D6CEFF;
+  font-size: 15px;
+  }
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+ }
+  
+ } */
+
+
+
+ .block2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:  rgb(53, 30, 17);
+    border-radius: 10px;
+  
+ }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+  font-family: ui-sans-serif, system-ui,
+  -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, "Noto Sans", sans-serif;
+   /* color: #A1724E; */
+    color: #d3d3d3;
+   font-weight: 600;
+    }
+    a{
+       /* color: #A1724E;  */
+       color: #d3d3d3;
+    }
+}

@@ -1,0 +1,312 @@
+.Community{
+    width: 100%;
+    height: 100%;
+    background-color: #1B1C21; 
+    overflow-y: auto;
+    cursor: pointer;
+}
+ 
+.card{
+
+   height: 100px;
+   background-color: #1E1F25;
+   border: 1px solid #222329;
+   border-radius: 6px;
+   margin: 6px;
+   display: flex;
+}
+.search {
+   
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {  
+        background-color: #1E1F25;
+        border-radius: 10px;
+        width: 90%;
+        height: 60%;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-family: cursive;
+        border: none;
+
+    }
+   
+}
+.top{
+    background-color: #2E2F37;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    color: #ABAEC3;
+    margin-left: 5px;
+}
+.leftside{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    height: 100%;
+    width: 70%;
+}
+.stuffQuestion{
+    color: #E4E5E8;
+  
+     height: 100%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    p{
+        font-family: ui-sans-serif, system-ui,
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif;
+    }
+    .grey-color{
+        color:#888F9B ;
+    }
+   
+}
+
+
+.bute{
+    background-color: #532C37;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #DAB0C6;
+    width: auto;
+    font-family: ui-sans-serif, system-ui,
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif;
+        font-weight: bold;
+    font-size:10px;
+    
+}
+.containertool{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    
+    justify-content: center;
+    
+}
+.rightside{
+    width: 30%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.imagesRightSide{
+    position: relative;
+}
+.rightside .imagesRightSide img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    
+}
+ 
+.seenerQuestions{
+    background-color: #2B2D35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    span{
+        color: grey;
+        font-weight: bold;
+        font-size: 19px;
+    }
+}
+ 
+ 
+.imagesRightSide img:first-child{
+    position: relative;
+    left: 8px;
+    z-index: 3;
+   
+}
+.imagesRightSide img:nth-child(2) {
+     position: relative;
+     z-index: 2;
+}
+
+.imagesRightSide img:nth-child(3){
+    position: relative;
+    left: -10px;  
+    z-index: 1;  
+}
+.rightside{
+     
+    display: flex;
+    justify-content: space-around;
+}
+
+ @media (max-width: 600px) {
+ .Community{
+    width: 100%;
+    height: 100%;
+    background-color: #1B1C21; 
+    overflow-y: auto;
+    cursor: pointer;
+}
+ 
+.card{
+
+   height: 100px;
+   background-color: #1E1F25;
+   border: 1px solid #222329;
+   border-radius: 6px;
+   margin: 6px;
+   display: flex;
+}
+.search {
+   
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {  
+        background-color: #1E1F25;
+        border-radius: 10px;
+        width: 90%;
+        height: 60%;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-family: cursive;
+        border: none;
+
+    }
+   
+}
+.top{
+    background-color: #2E2F37;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    color: #ABAEC3;
+}
+.leftside{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: red;
+    height: 100%;
+    width: 70%;
+}
+.stuffQuestion{
+     color: #E4E5E8;
+     background-color: green;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    p{
+        font-family: ui-sans-serif, system-ui,
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif;
+        font-weight: bold;
+        
+    }
+    .grey-color{
+        color:#888F9B ;
+    }
+   
+}
+
+
+.bute{
+    background-color: #532C37;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #DAB0C6;
+    width: 50px;
+    font-family: ui-sans-serif, system-ui,
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif;
+        font-weight: bold;
+    font-size:10px;
+}
+.containertool{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+   
+    
+}
+.rightside{
+    width: 30%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+ 
+.rightside .imagesRightSide img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    
+}
+ 
+.seenerQuestions{
+    background-color: #2B2D35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    span{
+        color: grey;
+        font-weight: bold;
+        font-size: 19px;
+    }
+}
+
+.imagesRightSide img:first-child{
+    position: relative;
+    left: 8px;
+    z-index: 3;
+}
+.imagesRightSide img:nth-child(2) {
+     position: relative;
+     z-index: 2;
+}
+
+.imagesRightSide img:nth-child(3){
+    position: relative;
+    left: -10px;  
+    z-index: 1;  
+}
+ 
+
+}
+
+
+ 
