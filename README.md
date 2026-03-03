@@ -31,3 +31,8 @@ Follow these simple steps to integrate **FlowRTC** into your project:
 ```bash
 npm install nahdi-flowrtc
 ```
+
+### npm
+
+you can see our package in npm
+<a href="https://www.npmjs.com/package/nahdi-flowrtc"/>
