@@ -35,4 +35,6 @@ npm install nahdi-flowrtc
 ### npm
 
 you can see our package in npm
-<a href="https://www.npmjs.com/package/nahdi-flowrtc"/>
+<a href="https://www.npmjs.com/package/nahdi-flowrtc">
+https://www.npmjs.com/package/nahdi-flowrtc
+</a>
