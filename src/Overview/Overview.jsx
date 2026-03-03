@@ -26,7 +26,7 @@ const Overview = () => {
         <div className="info-header-bar">
           <span>Teams</span>
           <span>Community</span>
-          <span>Support</span>
+          <span><a href="https://github.com/nahdi-FlowRtc/FlowRTC-Docs">Github</a></span>
           <span>Enterprise</span>
         </div>
       </div>
@@ -55,7 +55,7 @@ const Overview = () => {
         <Card img={"/imagesUi/icon.png"} />
       </div>
 
-     <div className="squareFloat" ref={floatReft}>
+     {/* <div className="squareFloat" ref={floatReft}>
         {speeds.map((speed, index) => (
           <Float
             key={index}
@@ -67,7 +67,7 @@ const Overview = () => {
 
           />
         ))}
-      </div>   
+      </div>    */}
       <div className="trusted-dev">
         <h1>Trusted by developers worldwide</h1>
         <div className="content-trusted-dev">
@@ -77,6 +77,7 @@ const Overview = () => {
          <span> © 2026 YourBrand — Open Source • MIT License   </span>
         </div>
       </div>
+
     </div>
   );
 };

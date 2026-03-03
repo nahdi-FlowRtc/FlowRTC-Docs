@@ -77,5 +77,13 @@
   // 🌌 Starry Night
   "radial-gradient(circle at 50% 50%, rgba(99,102,241,0.35), transparent 60%), linear-gradient(160deg, #000000, #0b0033)",
   // 🖤 Pure Dark Minimal
-  "#0a0a0a"
+   "radial-gradient(circle at 30% 30%, rgba(59,130,246,0.3), transparent 50%), linear-gradient(135deg, #000000, #001a33)",
+
+  "radial-gradient(circle at 20% 25%, rgba(0,132,255,0.35), transparent 55%), linear-gradient(135deg, #050510, #0a0f1f)",
+
+  "radial-gradient(circle at 70% 30%, rgba(59,130,246,0.4), transparent 50%), linear-gradient(145deg, #000000, #07121f)",
+
+  "radial-gradient(circle at 50% 50%, rgba(37,99,235,0.25), transparent 60%), linear-gradient(120deg, #020617, #0f172a)",
+
+  "radial-gradient(circle at 40% 20%, rgba(99,102,241,0.35), transparent 55%), linear-gradient(160deg, #000814, #001d3d)"
 ];
