@@ -20,6 +20,7 @@ import AnswerOffer from "./doc/Components/Handelissue/AnswerOffer"
 import EstablisConnectionError from "./doc/Components/Handelissue/EstablisConnectionError"
 import Events from "./doc/Components/AllEvents/Events"
 import Overview from "./Overview/Overview"
+import Vanilla from "./doc/Tutorials/VanillaJs/Vanilla"
  
  
  
@@ -51,6 +52,7 @@ const App = () => {
        <Route path="AnswerOfferIssue" element={<AnswerOffer/>}/>
        <Route path="establishConnectionError" element={<EstablisConnectionError/>}/>
        <Route path="allEvents" element={<Events/>}/>
+       <Route path="vanilla" element={<Vanilla/>}/>
      
 
        

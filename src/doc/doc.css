@@ -99,7 +99,31 @@
   text-decoration: underline;
   font-weight: bold;
 }
+summary {
+  list-style: none;
+  cursor: pointer;
+  
+}
 
+summary::-webkit-details-marker {
+  display: none;
+} 
+.doc-image{
+    line-height: 1.7rem;
+
+    img{
+        border-radius: 10px;
+        width: 18px;
+        height: 18px;
+    }
+    .xdoc{
+        
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        
+    }
+}
 @media (min-width: 1137px) and (max-width: 1657px) {
 .container{ 
     height:100vh;

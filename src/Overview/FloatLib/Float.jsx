@@ -53,7 +53,7 @@ const Float = ({posx,posy,floatReft,Speed,image}) => {
             src={image}
             ref={imageRef}
             style={{transition: "transform 0.1s ease"
-              ,willChange: "transform"
+              ,willChange: "transform",objectFit:"cover"
             }}
            />
            </>

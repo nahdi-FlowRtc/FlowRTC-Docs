@@ -1,0 +1,109 @@
+.CardTutorials{
+    background: rgba(23, 23, 26, 0.75);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 12px;
+ 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+    transition: 0.3s ease;
+}
+
+.CardTutorials:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 60px rgba(120,120,255,0.2);
+}.video-section{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-section-image{
+    width: 90%;
+    height: 65%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+.video-section-image img:first-child{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+    transition: 0.3s ease;
+}
+
+.video-section-image:hover img:first-child{
+    filter: brightness(1);
+    transform: scale(1.05);
+}
+
+.video-section-image img:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.video-section-image img:nth-child(2):hover{
+    transform: translate(-50%, -50%) scale(1.2);
+}.description-section{
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+} 
+
+
+.random-info{
+    background: rgba(255,255,255,0.06);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 6px 14px;
+    width: fit-content;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+.text-description-section{
+    font-family: system-ui, sans-serif;
+    letter-spacing: 0.5px;
+    color: #d4d4d8;
+    font-size: 14px;
+    line-height: 1.5;
+}.steps-description-params .inforamtion{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.steps-description-params .inforamtion img{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #8b5cf6;
+    box-shadow: 0 0 10px #8b5cf6;
+}

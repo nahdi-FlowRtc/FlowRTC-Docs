@@ -8,13 +8,13 @@ import Card from "./Card";
 const Overview = () => {
   const floatReft = useRef(null);
   const Nav = useNavigate();
-  const speeds = [
-    { x: 0.33, y: 0.23 },
-    { x: 0.4, y: 1.2 },
-    { x: 0.6, y: 0.32 },
-    { x: 0.8, y: 0.52 },
-    { x: 1, y: 0.52 },
-  ];
+ const speeds = [
+  { x: +((Math.random() - 0.5) * 0.04).toFixed(3), y: +((Math.random() - 0.5) * 0.04).toFixed(3) },
+  { x: +((Math.random() - 0.5) * 0.04).toFixed(3), y: +((Math.random() - 0.5) * 0.04).toFixed(3) },
+  { x: +((Math.random() - 0.5) * 0.04).toFixed(3), y: +((Math.random() - 0.5) * 0.04).toFixed(3) },
+  { x: +((Math.random() - 0.5) * 0.04).toFixed(3), y: +((Math.random() - 0.5) * 0.04).toFixed(3) },
+  { x: +((Math.random() - 0.5) * 0.04).toFixed(3), y: +((Math.random() - 0.5) * 0.04).toFixed(3) },
+];
 
   return (
     <div className="containerSover" style={{ background: backgrounds[3] }}>
@@ -55,19 +55,19 @@ const Overview = () => {
         <Card img={"/imagesUi/icon.png"} />
       </div>
 
-     {/* <div className="squareFloat" ref={floatReft}>
+     <div className="squareFloat" ref={floatReft}>
         {speeds.map((speed, index) => (
           <Float
             key={index}
             posx={Math.random() * 200}  
             posy={Math.random() * 200}
             floatReft={floatReft}
-            image={`https://picsum.photos/200/300?random=${index}`}
+            image={`./FloatImages/${index}.png`}
             Speed={speed}
 
           />
         ))}
-      </div>    */}
+      </div>    
       <div className="trusted-dev">
         <h1>Trusted by developers worldwide</h1>
         <div className="content-trusted-dev">

@@ -1,5 +1,5 @@
 .containerSover {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -7,7 +7,9 @@
     padding-top: 60px;
     
 }
-
+ body {
+  background:   radial-gradient(circle at 50% 50%, rgba(247, 109, 85, 0.3), transparent 60%), linear-gradient(160deg, #000000, #1a0033)
+}
 /* === Header Bar === */
 .header-bar {
     width: 50%;
@@ -189,9 +191,9 @@
 .squareFloat {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom:   0;
 
-    width: 100%;
+    width: 30%;
     height: 30%;
     img {
         width: 55px;
