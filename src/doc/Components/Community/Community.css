@@ -62,6 +62,12 @@
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     p:first-child{
+       text-align: center;
+         width: 100%;
+         height: 100%;
+         overflow-y: auto;
+     }
     p{
         font-family: ui-sans-serif, system-ui,
         -apple-system, BlinkMacSystemFont,
@@ -155,7 +161,7 @@
     display: flex;
     justify-content: space-around;
 }
-
+ 
  @media (max-width: 600px) {
  .Community{
     width: 100%;

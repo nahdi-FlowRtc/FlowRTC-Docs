@@ -1,6 +1,7 @@
  
+ 
 
-const Card = ({item}) => {
+const Card = ({item ,pass}) => {
     function tags(name){
         return(
              <div className="bute">
@@ -11,21 +12,26 @@ const Card = ({item}) => {
     }
 
   
- 
 
   return (
     <div className="card">
         <div className="leftside">
+
             <div className="top">
-            <span class="material-symbols-outlined">arrow_upward</span> 
-            <span>{item.votes}</span>
+            <span className="material-symbols-outlined">arrow_upward</span> 
+            <span>{item.up}</span>
             </div>
+                   
+            <div className="top">
+               <span onClick={()=>pass(item._id)} >X</span> 
+            </div>
+
             <div className="stuffQuestion">
-                <p>{item.title}</p>
+                <p>{item.question}</p>
 
                  <div className="containertool">
-                  {item.tags.map((item)=>tags(item))}
-                   <p className="grey-color">{item.author} asked {item.time}</p>
+                {item.tags.map((item)=>tags(item))}  
+                   <p className="grey-color">{item.Author} asked {item.updatedAt.substring(0,item.updatedAt.indexOf("T"))}</p>
                  </div>
                  
             </div>
@@ -33,12 +39,12 @@ const Card = ({item}) => {
         <div className="rightside">
             <div className="imagesRightSide">
                 
-                {item.images.map((item)=><img src={item}/>)}
+                {item.users.map((item)=><img src={item}/>)}
              
             </div>
             <div className="seenerQuestions">
              <img src="/iconsvg/user.svg"/>
-             <span>{item.views}</span>
+             <span>{item.seen}</span>
             </div>
         </div>
     </div>
