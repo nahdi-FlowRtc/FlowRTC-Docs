@@ -9,4 +9,43 @@
 }
 .Vanilla > * {
     flex-shrink: 0;
+}.sexy-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+/* Link style */
+.sexy-link a {
+  background: linear-gradient(90deg, #7f00ff, #e100ff, #ff007f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/* Hover effect: glow + slight move */
+.sexy-link a:hover {
+  transform: translateY(-5px);
+  text-shadow: 0 0 10px #e100ff, 0 0 20px #ff007f, 0 0 30px #7f00ff;
+}
+
+/* Optional underline animation */
+.sexy-link a::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0%;
+  background: #ff007f;
+  transition: width 0.4s ease;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.sexy-link a:hover::after {
+  width: 100%;
 }
