@@ -43,7 +43,9 @@ const Overview = () => {
           everywhere.
         </p>
 
-        <button onClick={() => Nav("/doc")}>Start for free</button>
+        <button onClick={() => Nav("/doc")}
+          style={{zIndex:"99"}}
+          >Start for free</button>
       </div>
 
       <div className="containreOrganization">

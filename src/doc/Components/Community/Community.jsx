@@ -13,7 +13,7 @@ const [listOfquestion,SetListOfquestion] = useState([])
 useEffect(()=>{
 const handelPosts = async()=>{
   try{
-  const {data} =  await axios.get("https://backend-w648.onrender.com/tutorials/posts")
+  const {data} =  await axios.get("http://localhost:5000/tutorials/posts")
   SetListOfquestion(data.arrayofData)
   }catch(error){
     console.log(error)
@@ -36,7 +36,7 @@ const handleDelete = async (id) => {
         return arr
       })
   try {
-    const response = await axios.delete(`https://backend-w648.onrender.com/tutorials/delete/${id}`);
+    const response = await axios.delete(`http://localhost:5000/tutorials/delete/${id}`);
     if (response.data) {
       console.log("success");
      

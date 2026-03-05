@@ -24,7 +24,7 @@ function AskQuestion({handel,passdata}) {
     console.log(formData);
     const D = new Date()
     try{
-         await axios.post("https://backend-w648.onrender.com/tutorials/upload",{
+         await axios.post("http://localhost:5000/tutorials/upload",{
         "question": formData.question,
         "Author": formData.author,
         "seen": 0,
