@@ -3,7 +3,7 @@
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 12px;
- 
+    height: 250px;
     display: flex;
     align-items: center;
     overflow: hidden;

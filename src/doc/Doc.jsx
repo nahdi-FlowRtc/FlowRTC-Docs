@@ -89,8 +89,8 @@ const Doc = () => {
                  <details className="doc-image">
                  <summary>  <span className="info-color" style={{cursor:"pointer"}}>● Tutorials</span> </summary>
                     <NavLink  className={"xdoc"} style={({ isActive }) => ({  textDecoration: isActive ? "underline" : "none",marginLeft:"10px"})} to={"vanilla"}><span style={{color:"#4493F8"}}>#1</span> Vanill Js <img src="/OrganizationImage/JavaScript.png"/></NavLink >
-                     <NavLink className={"xdoc"} style={({ isActive }) => ({  textDecoration: isActive ? "underline" : "none",marginLeft:"10px"})} to={"establishConnectionError"}><span style={{color:"#4493F8"}}>#2</span> React   <img src="/OrganizationImage/React.png"/></NavLink >     
-                     <NavLink className={"xdoc"} style={({ isActive }) => ({  textDecoration: isActive ? "underline" : "none",marginLeft:"10px"})} to={"establishConnectionError"}><span style={{color:"#4493F8"}}>#3</span> FullStackApp   <img src="/OrganizationImage/Node.js.png"/> <img src="/OrganizationImage/React.png"/> <img src="/OrganizationImage/JavaScript.png"/> </NavLink >   
+                     <NavLink className={"xdoc"} style={({ isActive }) => ({  textDecoration: isActive ? "underline" : "none",marginLeft:"10px"})} to={"react"}><span style={{color:"#4493F8"}}>#2</span> React   <img src="/OrganizationImage/React.png"/></NavLink >     
+                     <NavLink className={"xdoc"} style={({ isActive }) => ({  textDecoration: isActive ? "underline" : "none",marginLeft:"10px"})} to={"react"}><span style={{color:"#4493F8"}}>#3</span> FullStackApp   <img src="/OrganizationImage/Node.js.png"/> <img src="/OrganizationImage/React.png"/> <img src="/OrganizationImage/JavaScript.png"/> </NavLink >   
                      
                 </details>    
               <span className="info-color" style={{cursor:"pointer"}}>● pushVideos</span>

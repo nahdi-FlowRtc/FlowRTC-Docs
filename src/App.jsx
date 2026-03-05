@@ -21,6 +21,7 @@ import EstablisConnectionError from "./doc/Components/Handelissue/EstablisConnec
 import Events from "./doc/Components/AllEvents/Events"
 import Overview from "./Overview/Overview"
 import Vanilla from "./doc/Tutorials/VanillaJs/Vanilla"
+import Reaact from "./doc/Tutorials/React/Reaact"
  
  
  
@@ -53,6 +54,7 @@ const App = () => {
        <Route path="establishConnectionError" element={<EstablisConnectionError/>}/>
        <Route path="allEvents" element={<Events/>}/>
        <Route path="vanilla" element={<Vanilla/>}/>
+       <Route path="react" element={<Reaact/>}/>
      
 
        

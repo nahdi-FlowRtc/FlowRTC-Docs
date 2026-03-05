@@ -11,9 +11,7 @@ useEffect(() => {
         rtcConfig: iceConfiguration,      
         constraint: constraint,            
         localVideoRef: localVideoRef.current,
-        remoteVideoRef: remoteVideoRef.current,
-        autoStartCamera: true,
-        autoStartRemote: true,
+        remoteVideoRef: remoteVideoRef.current
       });
     } catch (error) {
       console.error("Failed to initialize PeerConnection:", error);

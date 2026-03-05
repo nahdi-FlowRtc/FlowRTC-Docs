@@ -6,15 +6,15 @@ import Higlight from "../../../Higlight"
      const code  = `
     const HandelCreatAnswer = async (offer) => {
     const answer = await PeerConnection.current.createAnswer(offer)
-    if (!answer) return
-    console.log(answer, "answer")
-     SetAnswer(code(answer))
+       if (!answer) return
+       console.log(answer, "answer")
+       SetAnswer(code(answer))
     }
      `
      const cod2 = ` 
 const code = (data) => {
-return JSON.stringify(data);
-     };`
+return JSON.stringify(data)
+}`
    return (
      <div className="doc-container">
  

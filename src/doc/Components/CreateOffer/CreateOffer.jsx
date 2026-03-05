@@ -6,9 +6,9 @@ const CreateOffer = () => {
     const code  = `
 const HandelCreateOffer = async () => {
   const offer = await PeerConnection.current.createOffer();
-    if (!offer) return;
-     console.log(offer);
-     SetOffer(code(offer));
+  if (!offer) return;
+  console.log(offer);
+  SetOffer(code(offer));
 };`
     const cod2 = ` 
 const code = (data) => {

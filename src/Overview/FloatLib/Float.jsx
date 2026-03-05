@@ -38,7 +38,7 @@ const Float = ({posx,posy,floatReft,Speed,image}) => {
         imageRef.current.style.transform = `translate(${position.current.x}px, ${position.current.y}px)`;
        
            
-           
+      
            animationFrameId = requestAnimationFrame(animate);
           }
         animationFrameId = requestAnimationFrame(animate);

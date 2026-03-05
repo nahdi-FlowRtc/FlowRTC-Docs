@@ -25,7 +25,7 @@ const Overview = () => {
 
         <div className="info-header-bar">
           <span>Teams</span>
-          <span>Community</span>
+          <span onClick={()=>Nav("/doc/Community")} >Community</span>
           <span><a href="https://github.com/nahdi-FlowRtc/FlowRTC-Docs">Github</a></span>
           <span>Enterprise</span>
         </div>

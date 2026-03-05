@@ -3,4 +3,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    height: 100%;
+    overflow-y: auto;
+      
+}
+.Vanilla > * {
+    flex-shrink: 0;
 }

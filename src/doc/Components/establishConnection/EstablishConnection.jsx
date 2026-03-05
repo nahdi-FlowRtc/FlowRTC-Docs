@@ -15,8 +15,8 @@ const EsatblishConection = async () => {
      `
      const cod2 = ` 
 const uncode = (data) => {
-return JSON.parse(data);
-};`
+return JSON.parse(data)  
+}`
    return (
 
 
