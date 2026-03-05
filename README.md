@@ -10,6 +10,8 @@
 <img src="./public/GitImages/next.png" alt="next" width="300"/>
 <img src="./public/GitImages/videos.png" alt="xx" width="800"/>
 
+<img src="./public/GitImages/tut.png" alt="tut" width="800"/>
+<img src="./public/GitImages/tutmobile.png" alt="tutmobile" width="300"/>
 ---
 
 ## ⚡ Features
